@@ -114,46 +114,44 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_rzYYV8": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VdBaJT": {
-          "type": "heading",
-          "settings": {
-            "heading": "Top Software Engineers",
-            "heading_size": "h1"
-          }
-        },
-        "text_ywaKNc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You can allocate in your company our best software engineers to help you develop your applications<br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_VdBaJT",
-        "text_ywaKNc"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "featured_collection_8JQDwy": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "software-engineers",
         "products_to_show": 6,
-        "title": "",
+        "title": "Top Software Engineers",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>You can allocate in your company our best software engineers to help you develop your applications<br/><br/></p>",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_HYNcBV": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "quality-assurance",
+        "products_to_show": 6,
+        "title": "Top Quality Assurance Engineers",
+        "heading_size": "h1",
+        "description": "<p>You can allocate in your company our best QA engineers to help you improve the quality of your deliveries<br/><br/></p>",
         "show_description": false,
         "description_style": "body",
         "columns_desktop": 3,
@@ -178,7 +176,7 @@
   "order": [
     "image_banner",
     "multicolumn_e7hh4h",
-    "rich_text_rzYYV8",
-    "featured_collection_8JQDwy"
+    "featured_collection_8JQDwy",
+    "featured_collection_HYNcBV"
   ]
 }
