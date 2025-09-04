@@ -57,37 +57,128 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "multicolumn_e7hh4h": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Fe83EH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/high-quality_codes.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_p3bCCG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/high-quality_codes_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qrqMec": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/high-quality_codes_2.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Fe83EH",
+        "column_p3bCCG",
+        "column_qrqMec"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_rzYYV8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VdBaJT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Top Software Engineers",
+            "heading_size": "h1"
+          }
+        },
+        "text_ywaKNc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can allocate in your company our best software engineers to help you develop your applications<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VdBaJT",
+        "text_ywaKNc"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_8JQDwy": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "software-engineers",
+        "products_to_show": 6,
+        "title": "",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 44,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "multicolumn_e7hh4h",
+    "rich_text_rzYYV8",
+    "featured_collection_8JQDwy"
   ]
 }
