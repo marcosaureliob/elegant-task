@@ -36,9 +36,7 @@ The theme was developed using Shopify CLI and Liquid, with the code organized in
 
 ---
 
-## 🖥️ Running Locally
+## 🖥️ Store Link
 
-1. Clone this repository:
-   ```bash
-   git clone <your-repo-url>
-   cd <repo-folder>
+https://elegant-task.myshopify.com/
+password: 310898
