@@ -38,5 +38,5 @@ The theme was developed using Shopify CLI and Liquid, with the code organized in
 
 ## 🖥️ Store Link
 
-https://elegant-task.myshopify.com/
+https://elegant-task.myshopify.com/ <br>
 password: 310898
